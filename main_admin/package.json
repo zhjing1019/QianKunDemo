@@ -1,6 +1,7 @@
 {
-  "name": "microfrontend-demo",
+  "name": "main-admin",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "start": "concurrently \"npm run start:main\" \"npm run start:sub-app1\" \"npm run start:sub-app2\"",
     "install:all": "concurrently \"npm run install:sub-app1\" \"npm run install:sub-app2\" \"npm install\"",
@@ -16,19 +17,27 @@
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "concurrently": "^5.0.0",
-    "core-js": "^3.3.2",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.11.0",
     "isomorphic-fetch": "^2.2.1",
-    "qiankun": "^1.2.3",
+    "iview": "^3.2.2",
+    "js-cookie": "^2.2.0",
+    "qiankun": "^1.3.4",
     "vue": "^2.6.10",
-    "vue-router": "^3.1.3",
+    "vue-i18n": "^7.8.0",
+    "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "mockjs": "^1.0.1-beta3",
     "vue-template-compiler": "^2.6.10"
   }
 }

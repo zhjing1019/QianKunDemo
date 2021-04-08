@@ -3,8 +3,7 @@
         <!--头部-->
         <Header class="header" theme="dark" width="auto" style="height: 54px;background-color: #0052a4;">
             <div class="logoBox">
-                <img :src="logoImg" width="44px" alt="">
-                <span>SGM智能软件管理平台(ISMS-V1.2)</span>
+                <span>管理平台</span>
             </div>
         </Header>
         <Layout>
@@ -65,7 +64,6 @@
     import SideMenu from './components/side-menu'
     import commonIcon from '@/components/common-icon'
     import { mapGetters,mapActions,mapMutations }   from 'vuex'
-    import logoImg from '@/assets/img/logo.png'
     import { showTitle } from "@/libs/util";
     import routers from '@/router/routers'
 
