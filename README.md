@@ -66,7 +66,8 @@ _在面对各种复杂场景时，我们通常很难对一个已经存在的系�
 _每个微应用之间状态隔离，运行时状态不共享_
 
 微前端的核心目标是将巨石应用拆解成若干个可以独立的子应用
-evernotecid://F9E7509D-5E80-4FD3-87E1-A1340229FCB4/appyinxiangcom/27675019/ENResource/p37![Uploading image.png…]()
+evernotecid://F9E7509D-5E80-4FD3-87E1-A1340229FCB4/appyinxiangcom/27675019/ENResource/p37![image](https://user-images.githubusercontent.com/29360917/114289571-941dd400-9aab-11eb-9566-a834e799a28a.png)
+
 
 
 
