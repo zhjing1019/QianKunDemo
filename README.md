@@ -7,6 +7,15 @@ main_manage 为主应用
 sub-app1 为子应用
 sub-app2 为子应用
 
+##### 启动项目
+```javascript
+// 启动 main_admin 主应用
+cd main_admin
+yarn install 或者 npm install
+yarn serve 或者 npm serve
+
+```
+
 
 ### 已解决
 1，子应用与主应用，子应用与子应用跨域问题  
