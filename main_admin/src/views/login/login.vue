@@ -49,7 +49,7 @@
   .loginBack{
     width: 100%;
     height: 100%;
-    background-image: url("../../assets/images/wu_login_bg.jpg");
+    background-image: url("../../assets/images/login_bg.jpg");
     background-size: contain;//此时会保持图像的纵横比并将图像缩放成将适合背景定位区域的 最大 大小。
     background-position: center;
     position: relative;

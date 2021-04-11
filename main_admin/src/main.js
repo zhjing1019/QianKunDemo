@@ -36,7 +36,7 @@ Vue.prototype.$config = config
  */
 Vue.prototype.$EventBus = new Vue()
 
-import {registerMicroApps,runAfterFirstMounted, setDefaultMountApp, start} from 'qiankun';
+import { registerMicroApps,runAfterFirstMounted, setDefaultMountApp, start } from 'qiankun';
 import fetch from 'isomorphic-fetch';
 let app = null;
 
@@ -84,7 +84,9 @@ const request = url =>
   });
 
 
-//注册子应用
+/**
+ * 在主应用中注册微应用
+ */
 registerMicroApps([
     {
       name: 'vue sub-app1',
@@ -98,7 +100,6 @@ registerMicroApps([
       render,
       activeRule: genActiveRule('/sub-app2')
     },
-    // { name: 'vue admin', entry: '//localhost:9428', render, activeRule: genActiveRule('/admin') },
   ],
   {
     beforeLoad: [
