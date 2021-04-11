@@ -14,6 +14,21 @@ cd main_admin
 yarn install 或者 npm install
 yarn serve 或者 npm serve
 
+// 启动 main_manage 主应用
+cd main_manage
+yarn install 或者 npm install
+yarn serve 或者 npm serve
+
+// 启动 sub-app1 子应用
+cd sub-app1
+yarn install 或者 npm install
+yarn serve 或者 npm serve
+
+// 启动 sub-app2 子应用
+cd sub-app1
+yarn install 或者 npm install
+yarn serve 或者 npm serve
+
 ```
 
 
