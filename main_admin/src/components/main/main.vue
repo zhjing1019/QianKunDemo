@@ -38,13 +38,9 @@
                                 <common-icon style="margin-right: 4px;" :type="item.icon || ''"/>
                                 {{showTitle(item)}}
                             </BreadcrumbItem>
-                            <!--<BreadcrumbItem to="/">Home</BreadcrumbItem>-->
-                            <!--<BreadcrumbItem to="/components/breadcrumb">Components</BreadcrumbItem>-->
-                            <!--<BreadcrumbItem>Breadcrumb</BreadcrumbItem>-->
                         </Breadcrumb>
                     </div>
                     <Content class="content-wrapper">
-                        <!--<router-view/>-->
                         <template v-if="!isChildApp">
                         <!--//不是子应用就调用路由-->
                             <router-view/>
